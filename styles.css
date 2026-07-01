@@ -13,7 +13,7 @@
 
 * { box-sizing: border-box; }
 
-body { margin: 0; background: var(--bg); color: var(--text); }
+body { margin: 0; background: var(--bg); color: var(--text); overflow-x: hidden; }
 img { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
 
@@ -474,6 +474,7 @@ body.checkout-open .topbar { display: none; }
   .brand-logo { width: 92px; height: 54px; }
   .header-whatsapp { min-width: auto; padding: 10px 12px; font-size: 13px; }
   .header-whatsapp img { width: 21px; height: 21px; }
+  .hero { width: 100%; padding-left: 16px; padding-right: 16px; }
   .product-grid { display: flex; flex-direction: column; }
   .details { display: contents; }
   .offer-card { order: 1; max-width: none; margin: 0 0 12px; }
